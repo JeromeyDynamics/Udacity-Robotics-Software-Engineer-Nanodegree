@@ -1,5 +1,6 @@
 <sdf version='1.7'>
   <world name='default'>
+    <plugin name="hello" filename="libhello.so"/>
     <light name='sun' type='directional'>
       <cast_shadows>1</cast_shadows>
       <pose>0 0 10 0 -0 0</pose>
@@ -575,10 +576,10 @@
       <pose>14.1497 -4.66639 0.275 0 -0 0</pose>
     </model>
     <state world_name='default'>
-      <sim_time>58 414000000</sim_time>
-      <real_time>58 464594232</real_time>
-      <wall_time>1751980545 654100921</wall_time>
-      <iterations>58414</iterations>
+      <sim_time>73 10000000</sim_time>
+      <real_time>14 616642362</real_time>
+      <wall_time>1752722571 196576287</wall_time>
+      <iterations>14596</iterations>
       <model name='ground_plane'>
         <pose>0 0 0 0 -0 0</pose>
         <scale>1 1 1</scale>
@@ -590,29 +591,29 @@
         </link>
       </model>
       <model name='robot'>
-        <pose>14.1497 -4.66639 0.275 0 -0 0</pose>
+        <pose>14.1497 -4.66635 0.275075 1e-05 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='link_3'>
-          <pose>60.2144 -12.8553 0.5 0 -0 0</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
+          <pose>60.2144 -12.8553 0.499995 1e-05 -0 0</pose>
+          <velocity>2e-06 -0.004896 -0.004891 0.009792 5e-06 0</velocity>
+          <acceleration>0.00471 -0.01105 -9.78158 0.022096 0.009417 -1e-06</acceleration>
+          <wrench>0.00471 -0.01105 -9.78158 0 -0 0</wrench>
         </link>
         <link name='link_4'>
-          <pose>-1.1886 -1.73842 0.2 0 -0 0</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
+          <pose>-1.1886 -1.73842 0.200005 0 -0 0</pose>
+          <velocity>0 -0 0 0 -0 0</velocity>
+          <acceleration>0 0 -0 0 -0 0</acceleration>
+          <wrench>0 0 -0 0 -0 0</wrench>
         </link>
         <link name='link_5'>
-          <pose>-1.1886 -2.28843 0.2 1.5707 -0 0</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
+          <pose>-1.1886 -2.28843 0.200005 1.5707 -0 0</pose>
+          <velocity>0 -0 0 0 -0 0</velocity>
+          <acceleration>-0 0 0 0 -0 0</acceleration>
+          <wrench>-0 0 0 0 -0 0</wrench>
         </link>
         <link name='link_5_clone'>
-          <pose>-1.1886 -1.1884 0.2 1.5707 -0 0</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
+          <pose>-1.1886 -1.1884 0.200005 1.5707 -0 0</pose>
+          <velocity>0 -0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
