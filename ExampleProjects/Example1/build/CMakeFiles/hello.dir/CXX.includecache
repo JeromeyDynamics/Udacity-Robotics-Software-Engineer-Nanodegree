@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/ubuntu/Udacity-Robotics-Software-Engineer-Nanodegree/myrobot/script/hello.cpp
+/home/ubuntu/Udacity-Robotics-Software-Engineer-Nanodegree/ExampleProjects/Example1/script/hello.cpp
 gazebo/gazebo.hh
 -
 
