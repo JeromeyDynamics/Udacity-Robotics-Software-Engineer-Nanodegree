@@ -1,3 +1,0 @@
-/home/ubuntu/Udacity-Robotics-Software-Engineer-Nanodegree/ExampleProjects/Example1/build/CMakeFiles/rebuild_cache.dir
-/home/ubuntu/Udacity-Robotics-Software-Engineer-Nanodegree/ExampleProjects/Example1/build/CMakeFiles/edit_cache.dir
-/home/ubuntu/Udacity-Robotics-Software-Engineer-Nanodegree/ExampleProjects/Example1/build/CMakeFiles/hello.dir
